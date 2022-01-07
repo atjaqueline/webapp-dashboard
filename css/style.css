@@ -217,14 +217,6 @@ button {
     margin: 15px;
 }
 
-
-/* .social-image svg {
-    background-color: rgba(116, 119, 191, 255);
-    border-radius: 50%;
-    width: 84px;
-   height: 84px; 
-}*/
-
 .social-text p:first-child {
     color: rgba(116, 119, 191, 255);
     margin: 10px 0px 2px 0px;
@@ -377,12 +369,6 @@ form#settings-form {
     width: 85px;
 }
 
-
-/* .switch-ios.switch-light a {
-    left: 0;
-    top: -4px;
-} */
-
 button#save {
     width: 48%;
 }
@@ -491,6 +477,9 @@ button#cancel {
     .text-members {
         margin: 0;
     }
+    .switch-container {
+        max-width: 45%;
+    }
 }
 
 
@@ -516,5 +505,11 @@ button#cancel {
     }
     .message {
         border-bottom: none;
+    }
+    .switch-container {
+        max-width: 60%;
+    }
+    select#timezone {
+        margin-top: 40px;
     }
 }
