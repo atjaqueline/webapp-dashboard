@@ -62,7 +62,23 @@ a {
 
 .notifications svg {
     padding: .5rem;
-    border-right: 2px solid rgb(190, 190, 190);
+    /*   border-right: 2px solid rgb(190, 190, 190); */
+}
+
+.navimg {
+    border-left: 2px solid rgb(190, 190, 190);
+}
+
+.navimg {
+    display: flex;
+}
+
+.notifications svg {
+    transition: all 0.5s ease-out 0.5s;
+}
+
+.notifications svg:hover {
+    transform: rotate(360deg);
 }
 
 .header-h {
