@@ -163,7 +163,7 @@ button {
 
 .social-image svg {
     position: relative;
-    left: 12px;
+    left: 10.4px;
     bottom: -10px;
 }
 
@@ -349,14 +349,39 @@ select#timezone {
     margin: 10px auto;
 }
 
-.settings {
-    margin: 15px;
-}
-
 .settings-button {
     display: flex;
     justify-content: space-between;
 }
+
+form#settings-form {
+    margin: 15px;
+}
+
+.settings p,
+.settings a {
+    margin: 0;
+}
+
+.switch-container {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.switch-light {
+    width: 85px;
+}
+
+
+/* .switch-ios.switch-light a {
+    left: 0;
+    top: -4px;
+} */
 
 button#save {
     width: 48%;
