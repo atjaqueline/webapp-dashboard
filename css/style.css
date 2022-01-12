@@ -218,6 +218,11 @@ button {
     margin: 15px;
 }
 
+.text-members p:last-child,
+.members .container-members p:last-child {
+    margin-bottom: 15px;
+}
+
 .social-text p:first-child {
     color: rgba(116, 119, 191, 255);
     margin: 10px 0px 2px 0px;
@@ -283,10 +288,6 @@ button {
     margin-right: auto;
     text-align: center;
     justify-content: center;
-}
-
-.text-members p {
-    margin-bottom: 0px;
 }
 
 header {
@@ -475,6 +476,9 @@ button#cancel {
         display: flex;
         justify-content: flex-start;
     }
+    .activity p:last-child {
+        margin-bottom: 0px;
+    }
     .text-members {
         margin: 0;
     }
@@ -503,6 +507,9 @@ button#cancel {
     }
     .container-members {
         height: 100px;
+    }
+    .activity p:last-child {
+        margin-bottom: 0px;
     }
     .message {
         border-bottom: none;
